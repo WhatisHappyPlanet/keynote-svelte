@@ -1,4 +1,4 @@
-# Keynote
+# Keynote Template with Svelte Components
 
 It is a template for online slide powered by [reveal-md](https://github.com/webpro/reveal-md) and [svelte.js](https://svelte.dev/).
 
@@ -39,3 +39,7 @@ You can deploy the static resource to any platform, such as Vercel.
 ```bash
 pnpm build
 ```
+
+## License
+
+[MIT](./LICENSE) @ HappyPlanet
