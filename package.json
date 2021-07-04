@@ -4,10 +4,10 @@
   "description": "Tech Sharing keynote",
   "scripts": {
     "dev": "npm-run-all --parallel dev:svelte dev:reveal",
-    "dev:svelte": "rollup -c -w",
+    "dev:svelte": "svelteup -w",
     "dev:reveal": "reveal-md md -w",
     "build": "npm run build:svelte && npm run build:reveal && npm run sw",
-    "build:svelte": "rollup -c",
+    "build:svelte": "svelteup",
     "build:reveal": "reveal-md md --static dist",
     "sw": "workbox generateSW"
   },
@@ -19,17 +19,14 @@
   "engines": {
     "node": ">=12.0.0"
   },
+  "dependencies": {
+    "svelte": "^3.38.3"
+  },
   "devDependencies": {
     "reveal-md": "^5.1.1",
     "workbox-cli": "^5.1.4",
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "svelteup": "^1.0.3"
   },
   "license": "MIT"
 }
