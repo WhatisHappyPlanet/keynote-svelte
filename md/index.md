@@ -4,11 +4,9 @@ revealOptions:
    transition: slide
 ---
 
-<my-element>
-    <p>This is some slotted content</p>
-</my-element>
+<github-corner></github-corner>
 
-# Reveal.js
+<my-element name="svelteup"></my-element>
 ### The HTML Presentation Framework
 <p>
     <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>

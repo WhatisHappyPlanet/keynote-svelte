@@ -4,11 +4,11 @@
 	export let name = 'world';
 </script>
 
-<h1>Hello6 {name}!</h1>
+<h1>Hello {name}!</h1>
 <slot></slot>
 
 <style>
 	h1 {
-		font-size: larger;
+		font-size: 3.77em;
 	}
 </style>
